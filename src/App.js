@@ -57,5 +57,5 @@ class App extends Component {
     );
   }
 }
-//iniciando projeto
+
 export default App;
