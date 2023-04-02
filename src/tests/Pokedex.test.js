@@ -63,7 +63,7 @@ describe('Teste o Componente Pokedex', () => {
     const bugType = screen.getByRole('button', { name: /bug/i });
 
     userEvent.click(bugType);
-    expect(pokemonType).toHaveTextContent('Fire');
+    expect(pokemonType).toHaveTextContent('Bug');
 
     userEvent.click(allBtn);
     expect(pokemonType).toHaveTextContent('Electric');
